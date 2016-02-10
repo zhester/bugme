@@ -1,9 +1,7 @@
-% bugme
-
-Windows Notification Icon and Messages
-
 Bugme!
 ======
+
+Windows Notification Icon and Messages
 
 This program is intended to demonstrate robust usage of the Win32
 `Shell_NotifyIcon()` interface for adding system tray icons, and then
@@ -19,7 +17,7 @@ Win32 API doesn't give you a lot of freedom in customizing the notification
 (which is fine for 99% of my use cases).
 
 Building
-========
+--------
 
 This program produces a native Windows program using MinGW.  It does not rely
 on Cygwin once built, but the build environment does.  I plan to add a Visual
@@ -31,7 +29,7 @@ installed.  Then, the following should work:
     make
 
 Installing
-==========
+----------
 
 Install into your prefix (`/usr/local` by default) with the following:
 
@@ -40,7 +38,7 @@ Install into your prefix (`/usr/local` by default) with the following:
 Otherwise, copy the file from `build/bugme.exe` to anywhere in your path.
 
 Usage
-=====
+-----
 
     bugme.exe [message [title]]
 
